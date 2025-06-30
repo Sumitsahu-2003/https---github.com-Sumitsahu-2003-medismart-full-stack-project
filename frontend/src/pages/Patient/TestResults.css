@@ -1,0 +1,71 @@
+.test-results-page {
+  background: #fffdff;
+  min-height: 100vh;
+  padding: 2rem;
+  color: #1976d2; /* Change this for all text color */
+}
+
+.test-results-top-image {
+  display: block;
+  margin: 0 auto 1.5rem auto;
+  max-width: 140px;
+  height: auto;
+}
+
+.test-results-page h1 {
+  color: #388e3c; /* Change heading color */
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.reports-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.report-card {
+  background: #fcc4e9;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(25, 118, 210, 0.07);
+  padding: 1.5rem 1.2rem;
+  min-width: 240px;
+  max-width: 320px;
+  color: #222;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.report-card:hover {
+  box-shadow: 0 6px 16px rgba(25, 118, 210, 0.18);
+  transform: translateY(-4px) scale(1.03);
+}
+
+.report-info h3 {
+  color: #1976d2;
+  margin-bottom: 0.5rem;
+}
+
+.report-info p {
+  color: #000000;
+  margin: 0;
+}
+
+.view-btn {
+  margin-top: 1rem;
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.view-btn:hover {
+  background: #1565c0;
+}

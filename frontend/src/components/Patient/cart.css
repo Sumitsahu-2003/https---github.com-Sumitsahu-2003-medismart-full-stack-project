@@ -1,0 +1,51 @@
+.remove-btn {
+  background: #e53935;  /* Red background */
+  color: #fff;          /* White text */
+  border: none;
+  border-radius: 8px;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 0.5rem 0;
+  transition: background 0.2s;
+}
+.remove-btn:hover {
+  background: #b71c1c;  /* Darker red on hover */
+}
+
+.checkout-btn {
+  background: #1976d2;  /* Blue background */
+  color: #fff;          /* White text */
+  border: none;
+  border-radius: 8px;
+  padding: 0.8rem 1.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 1rem;
+  transition: background 0.2s;
+}
+.checkout-btn:hover {
+  background: #1565c0;  /* Darker blue on hover */
+}
+
+.close-cart {
+  background: #eee;
+  color: #222;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.4rem;
+  cursor: pointer;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  transition: background 0.2s;
+}
+.close-cart:hover {
+  background: #ccc;
+}

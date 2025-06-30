@@ -1,0 +1,77 @@
+.emedicine-page {
+  padding: 2rem;
+  background: #f7f7f7;
+  min-height: 100vh;
+}
+
+.emedicine-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.medicine-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.medicine-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(237, 239, 241, 0.09);
+  padding: 1.5rem 1rem;
+  text-align: center;
+  width: 240px;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.medicine-card:hover {
+  box-shadow: 0 6px 24px rgba(255, 255, 255, 0.489);
+  transform: translateY(-4px) scale(1.03);
+}
+
+.medicine-image {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto 1rem auto;
+  box-shadow: 0 2px 8px rgba(251, 246, 246, 0.07);
+}
+
+.medicine-card h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.medicine-card p {
+  color: #666;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.medicine-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.medicine-footer button {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.medicine-footer button:hover {
+  background: #1565c0;
+}
